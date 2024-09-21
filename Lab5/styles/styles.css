@@ -1,0 +1,83 @@
+header .company {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  height: 90px;
+  width: 150px;
+  margin-right: 20px;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+header nav div {
+  text-align: center;
+  line-height: 27px;
+  height: 30px;
+  width: 130px;
+
+  border: 2px solid #00c8ff;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact,
+.home {
+  background-color: #00c8ff;
+}
+
+.contact a {
+  color: white;
+}
+
+.index_contact {
+  border: 2px solid black;
+  border-top: 2px solid #00c8ff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form div {
+  display: flex;
+  margin: 3px;
+}
+
+form div label {
+  margin: 0px 15px;
+}
+
+form div input {
+  margin-right: 60px;
+}
+
+.message {
+  padding-right: 18px;
+}
+
+.message_box {
+  height: 50px;
+}
+
+button {
+  width: 150px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+footer p {
+  text-align: center;
+  margin: 1px;
+}

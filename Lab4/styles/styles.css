@@ -1,0 +1,63 @@
+h1,
+h2 {
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 2px;
+}
+
+section {
+  background-color: skyblue;
+  margin-top: 15px;
+  display: flex;
+}
+
+div {
+  background-color: gray;
+  height: 50px;
+  flex-grow: 1;
+}
+
+.first {
+  padding: 5px;
+}
+
+.first div {
+  margin: 5px;
+}
+
+.second {
+  padding: 7.5px;
+}
+
+.second div {
+  margin: 7.5px;
+}
+
+.third {
+  padding: 6px;
+}
+
+.third div {
+  border: 2px solid black;
+  margin: 6px;
+}
+
+.double {
+  flex-grow: 2;
+}
+
+.fourth {
+  flex-wrap: wrap;
+  padding: 6px;
+}
+
+.fourth div {
+  border: 2px solid black;
+  margin: 6px;
+}
+
+.footer {
+  flex: 100%;
+}
